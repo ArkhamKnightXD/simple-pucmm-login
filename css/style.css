@@ -1,0 +1,171 @@
+
+body{
+	margin:0;
+	padding:0;
+	background: url("../img/background.jpg") no-repeat;
+	background-size:cover;
+}
+
+.pucmm-logo{
+
+    position: absolute;
+    left: 19.7%;
+    top: 6.5%;
+}
+
+.create-button{
+
+    position: absolute;
+    left: 59.7%;
+	top: 11%;
+	border-radius: 50px;
+	width: 25%;
+}
+
+
+.text-create{
+
+    position: absolute;
+    left: 68%;
+    top: 6%;
+	color: white;
+	font-size: 18px;
+}
+
+
+/*Aqui manejo la posicion y el tamaño del login*/
+.login-box{
+	
+    width:364px;
+    height: 435px;
+	position:absolute;
+	top:55.4%;
+	left:49.5%;
+	transform: translate(-50%, -50%);
+    color:black;
+	background-color: white;
+	
+	/*Con esta propiedad les doy suavidad a las esquinas de los bordes*/
+    border-radius: 10px;
+	
+}
+
+.forget{
+	padding-top: 25px;
+	text-align: center;
+	color:blue;
+	font-size: 16px;
+}
+
+
+
+.textbox-name{
+	
+	width:100%;
+	overflow:hidden;
+	font-size:19px;
+	padding-top:37px;
+	margin:8px 0;
+	text-align: center;
+}
+
+.textbox-pass{
+	
+	width:100%;
+	overflow:hidden;
+	font-size:19px;
+	padding-top:12px;
+	margin:8px 0;
+	text-align: center;
+}
+
+.textbox-name input{
+
+	border: none;
+	background:#ececec;
+	outline:none;
+	color:black;
+	font-size:18px;
+	width:83%;
+	height: 12%;
+	border-radius: 10px;
+}
+
+.textbox-pass input{
+
+	border: none;
+	background:#ececec;
+	outline:none;
+	color:black;
+	font-size:18px;
+	width:83%;
+	height: 12%;
+	border-radius: 10px;
+}
+
+.gray-text{
+
+	color:#a0a09e;
+	text-align: center;
+}
+
+
+.btn{
+	
+	width:60%;
+	background:	#5babcc;
+	color:white;
+	padding-top:10px;
+	padding-bottom: 10px;
+	margin-top:10px;
+	margin-bottom: 10px;
+	font-size:18px;
+	cursor:pointer;
+	position: relative;
+	left: 20%;
+	top: 3%;
+	border-radius: 25px;
+}
+
+
+
+.facebook-btn{
+
+	border: none;
+    width: 130px;
+    height: 35px;
+    position: absolute;
+    top: 80%;
+	left: 41.5%;
+	border-radius: 10px;
+}
+
+.twitter-btn{
+
+	border: 2px solid red;
+  	border-radius: 25px;
+    width: 130px;
+    height: 35px;
+    position: absolute;
+    top: 80%;
+    left: 50.5%;
+}
+
+.footer{
+	
+	position: absolute;
+    top: 100%;
+	width: 100%;
+	height: 15%;
+	background: white;
+}
+
+.footer a{
+	/*position relative es recomendable de usar cuando quiero posicionar un elemento
+	que esta anidado en una clase, para que la position de referencia que tome
+	sea donde se encuentra la clase que lo anida*/
+	position: relative;
+	top: 49%;
+	left: 29.6%;
+	padding-left: 100px;
+}
